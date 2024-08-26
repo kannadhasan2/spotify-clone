@@ -1,0 +1,15 @@
+.song {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #ffff;
+  padding-right: 120px;
+  margin-left: 50px;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

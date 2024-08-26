@@ -1,0 +1,30 @@
+.songs-list {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  margin-left: 32px;
+  background-color: transparent;
+  border: none;
+}
+.song-name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  margin-left: 49px;
+  width: 210px;
+}
+.song-name1 {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  margin-left: 49px;
+  width: 230px;
+}

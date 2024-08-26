@@ -1,0 +1,85 @@
+.home-main-container {
+  background: rgba(24, 24, 24, 1);
+  height: 100%;
+  display: flex;
+}
+.home-content-text {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 96px;
+  padding-left: 32px;
+}
+.home-ul-container {
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.failure-view {
+  width: 48px;
+  height: 48px;
+  gap: 0px;
+  opacity: 0px;
+}
+.failure-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18.24px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+.try-again-button {
+  width: Hug (95px) px;
+  height: Hug (32px) px;
+  padding: 4px 16px 4px 16px;
+  gap: 8px;
+  border-radius: 4px;
+  opacity: 0px;
+  background: rgba(255, 255, 255, 1);
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+@media screen and (max-width: 768px) {
+  .home-main-container {
+    display: flex;
+    flex-direction: column;
+    background: rgba(24, 24, 24, 1);
+    height: 100%;
+    display: flex;
+  }
+  .home-content-text {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    margin-top: 28px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .failure-view {
+    width: 24px;
+    height: 24px;
+  }
+  .failure-text {
+    font-size: 12px;
+  }
+  .try-again-button {
+    width: Hug (78px) px;
+    height: Hug (28px) px;
+    padding: 2px 12px 2px 12px;
+    gap: 8px;
+    border-radius: 4px;
+    opacity: 0px;
+  }
+}

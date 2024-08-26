@@ -1,0 +1,52 @@
+.render-list {
+  width: 166px;
+  height: 226px;
+  text-align: center;
+  margin-top: 32px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.playlist-images {
+  width: 166px;
+  height: 166px;
+
+  gap: 0px;
+  border-radius: 8px;
+  opacity: 0px;
+}
+.playlist-text-name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.93px;
+  text-align: center;
+  color: rgba(248, 250, 252, 1);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .render-list {
+    width: 82px;
+    height: 142px;
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    text-align: center;
+  }
+  .playlist-images {
+    width: 82px;
+    height: 82px;
+
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+  }
+  .playlist-text-name {
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15.7px;
+    text-align: center;
+    text-decoration: none;
+  }
+}

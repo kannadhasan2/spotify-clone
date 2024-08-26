@@ -1,0 +1,43 @@
+.not-found-main-container {
+  background: rgba(24, 24, 24, 1);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.not-found {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 140px;
+  color: #ffff;
+  font-family: 'Roboto';
+}
+.back-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  margin-top: 12px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .not-found-main-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .not-found-image {
+    width: 315.96px;
+    height: 190.92px;
+    padding: 5.96px 5.96px 5.96px 0px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .not-found {
+    margin-left: 12px;
+  }
+}

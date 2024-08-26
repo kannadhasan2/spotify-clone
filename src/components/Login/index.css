@@ -1,0 +1,146 @@
+.login-main-container {
+  background-image: url('https://res.cloudinary.com/dn6izpj6p/image/upload/v1724581434/Group_138_asfesb.png');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-cart-container {
+  width: 456px;
+  height: 433px;
+  border-radius: 12px 0px 0px 0px;
+  opacity: 0px;
+  background: rgba(24, 24, 24, 1);
+  padding: 24px;
+}
+
+.spotify-logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.website-logo {
+  width: 147.76px;
+  height: 60.6px;
+  top: 1.21px;
+  left: -1.76px;
+  gap: 0px;
+  opacity: 0px;
+}
+.app-name {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 41.86px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+.login-label {
+  font-family: 'Inter';
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 16px;
+}
+.login-input {
+  width: 408px;
+  height: 52px;
+  gap: 0px;
+  border-radius: 4px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background: rgba(217, 217, 217, 1);
+}
+
+.login-button {
+  width: 408px;
+  height: Hug (48px) px;
+  padding: 12px 32px 12px 32px;
+  gap: 8px;
+  border-radius: 8px;
+  opacity: 0px;
+  background: rgba(29, 185, 84, 1);
+  margin-top: 24px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+@media screen and (max-width: 768px) {
+  .login-main-container {
+    background-image: url('https://res.cloudinary.com/dn6izpj6p/image/upload/v1724581359/Group_138_1_v81whs.png');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .login-cart-container {
+    width: 296px;
+    height: 337px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    background: rgba(24, 24, 24, 1);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 47.5px;
+    padding-right: 47.5px;
+  }
+  .website-logo {
+    width: 100.8px;
+    height: 42px;
+    padding: 0.8px 0px 1.35px 0px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .app-name {
+    font-family: 'Roboto';
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36.62px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+  }
+  .login-label {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+  }
+  .login-input {
+    width: 201px;
+    height: 28px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: rgba(217, 217, 217, 1);
+  }
+  .login-button {
+    width: 93px;
+    height: Hug (40px) px;
+    padding: 12px 24px 12px 24px;
+    gap: 8px;
+    border-radius: 8px;
+    opacity: 0px;
+    background: rgba(29, 185, 84, 1);
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+  }
+}
